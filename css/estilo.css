@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #836fff;
 }
@@ -35,4 +39,11 @@ p{
     text-indent: 50px;
     text-align: justify;
 
+}
+
+footer{
+    font-size: 1.5em;
+    color:#836fff;
+    background-color: #fff;
+    font-weight: bold;
 }
