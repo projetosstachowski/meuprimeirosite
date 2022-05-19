@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Criando página HTML</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -13,22 +12,34 @@
 
 <body>
     <header>
-        <h1>Criação de páginas com HTML, CSS e JS</h1>
-        <figure>
-            <img class="img_topo" src="img/araucaria.webp" alt="Araucária">
-        </figure>
+        <div class="menu">
+            <div class="logo">
+                <h1>Criação de páginas com HTML, CSS e JS</h1>
+            </div>
+            <div class="itens_menu">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#flores">Plantas e Flores</a></li>
+                </ul>
+        </div>
+            <figure>
+                <img class="img_topo" src="img/araucaria.webp" alt="Araucária">
+            </figure>
     </header>
     
     <div class="container">
-        <h1>Página 1</h1>
-        <p>Página 1</p>
-        <p>Tema: Plantas e árvores.</p>
-        <p>Para ver mais informações específicas sobre árvores, clique <a href="arvores.html">aqui</a>.</p>
-        <h1>Outro Título</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut reiciendis, accusantium tenetur laudantium nemo, repellendus quam magnam quibusdam cum dolorum minima, dolorem sequi! Repudiandae nesciunt, molestias autem dolores voluptatibus officia!</p>
-        <figure>
-            <img class="img_corpo" src="img/girassol.jpg" alt="girassol">
-        </figure>
+        <section id="inicio">
+            <h1>Página 1</h1>
+            <p>Página 1</p>
+        </section>
+            <p>Tema: Plantas e árvores.</p>
+            <p>Para ver mais informações específicas sobre árvores, clique <a href="arvores.html">aqui</a>.</p>
+        <section id="flores">
+            <h1>Plantas e Flores</h1>
+            <figure>
+                <img class="img_corpo" src="img/girassol.jpg" alt="girassol">
+            </figure>
+        </section>
 
     </div>
     <footer>Aula de IW - 1F</footer>
