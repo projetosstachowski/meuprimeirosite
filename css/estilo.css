@@ -75,3 +75,14 @@ footer{
 .itens_menu a:hover{
     background-color: rgba(112,128,144,0.4);
 }
+
+.esquerda{
+    float: left;
+    margin-left: 5%;
+    width: 16%;
+}
+
+.direita{
+    float: right;
+    width: 50%;
+}
