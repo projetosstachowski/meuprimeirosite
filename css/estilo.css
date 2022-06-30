@@ -71,6 +71,7 @@ footer{
 
 .itens_menu a:link, .itens_menu a:visited{
     color: #fff;
+    text-decoration: none;
 }
 
 .itens_menu a:hover{
