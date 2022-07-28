@@ -1,3 +1,9 @@
+@font-face {
+    font-family: CaveatBrush-Regular;
+    src: url('../fonts/CaveatBrush-Regular.ttf');
+    src: url('../fonts/PatrickHand-Regular.ttf');
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,6 +20,14 @@ body{
 }
 
 h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'CaveatBrush-Regular', cursive;
+}
+
+h2{
     text-align: center;
     color: #fff;
     font-size: 2em;
@@ -39,7 +53,7 @@ p{
     text-indent: 50px;
     text-align: justify;
     line-height: 1.3;
-
+    font-family: 'PatrickHand-Regular', cursive;
 }
 
 footer{
