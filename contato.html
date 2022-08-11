@@ -29,17 +29,59 @@
     <div class="container">
         <section>
             <form action="#">
-                <label>Digite seu nome: </label><br>
-                <input type="text" placeholder="Coloque seu nome completo"><br>
-                <label>Telefone: </label><br>
-                <input type="text" placeholder="(99)99999-9999"><br>
+                <div class="row">
+                    <div class="col_25">
+                        <label>Digite seu nome: </label>
+                    </div>
+                    <div class="col_75">
+                        <input type="text" placeholder="Coloque seu nome completo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col_25">
+                        <label>Telefone: </label>
+                    </div>
+                    <div class="col_75">
+                        <input type="text" placeholder="(99)99999-9999">
+                    </div>
+                <div class="row">
+                    <div class="col_25">
+                <label>E-mail</label>
+                    </div>
+                    <div class="col_75">
+                        <input type="text" placeholder="email@email.com">
+                    </div>
+                <div class="row">
+                    <div class="col_25">
+                        <label>Assunto</label>
+                    </div>
+                    <div class="col_75">
+                        <select>
+                            <option value="1">Sugestão</option>
+                            <option value="2">Correção</option>
+                            <option value="3">Reclamação</option>
+                            <option value="4">Outro Assunto</option>
+                        </select>
+                    </div>
+                <div class="row">
+                    <div class="col_25">
+                        <label>Mensagem</label>
+                    </div>
+                    <div class="col_75">
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                        </textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Enviar">
+                </div>
             </form>
-
         </section>
     </div>
 
     <footer>
         <p class="center">Aula de IW</p>
     </footer>
+
 </body>
 </html>
