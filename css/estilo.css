@@ -139,8 +139,13 @@ audio{
     width: 75%;
 }
 
-input{
+input[type=text], select, textarea {
     width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
 }
 
 .col-25{
@@ -157,4 +162,9 @@ input{
 
 .row{
     display: table;
+}
+
+form{
+    width: 100%;
+    background-color:yellow;
 }
