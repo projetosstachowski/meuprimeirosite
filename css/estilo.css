@@ -44,6 +44,7 @@ figure{
 }
 
 .img_topo{
+    padding-top: 13.04%;
     width: 100%;
 }
 
@@ -71,7 +72,9 @@ footer{
 }
 
 .menu{
+    position: fixed;
     background-color: rgba(22, 10, 6, 0.3);
+    width: 100%;
     padding: 2%;
     padding-bottom: 0.8%;
     font-family: 'PatrickHand-Regular', cursive;
@@ -137,34 +140,4 @@ td{
 
 audio{
     width: 75%;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
-
-}
-
-.col-25{
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-}
-
-.col-75{
-    float: left;
-    width: 75%;
-    margin-top: 6px;
-}
-
-.row{
-    display: table;
-}
-
-form{
-    width: 100%;
-    background-color:yellow;
 }
