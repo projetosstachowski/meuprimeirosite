@@ -13,7 +13,6 @@ body{
 }
 
 .container{
-
     width: 80%;
     margin: auto;
     position: relative;
@@ -35,6 +34,21 @@ h2{
     font-family: 'CaveatBrush-Regular', cursive;
 }
 
+header{
+    background-color: #3521b3;
+    padding: 1%;
+    font-family: 'PatrickHand-Regular', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fixo{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 .img_logo{
     width: 30%;
 }
@@ -48,9 +62,10 @@ figure{
 }
 
 .img_topo{
-    padding-top: 13.04%;
+    padding-top: 7%;
     width: 100%;
 }
+
 
 p {
     font-size: 1.5em;
@@ -75,24 +90,7 @@ footer{
     color: blue;
 }
 
-.menu{
-    position: fixed;
-    background-color: rgba(22, 10, 6, 0.3);
-    width: 100%;
-    padding: 2%;
-    padding-bottom: 0.8%;
-    font-family: 'PatrickHand-Regular', cursive;
-    z-index: 1000;
-}
-
-.logo{
-    text-align: center;
-}
-
 .itens_menu{
-    text-align: center;
-    padding: 1%
-
 }
 
 .itens_menu li{
@@ -107,6 +105,10 @@ footer{
 
 .itens_menu a:hover{
     background-color: rgba(112,128,144,0.4);
+}
+
+.logo{
+    text-align: center;
 }
 
 .esquerda{
@@ -152,5 +154,48 @@ audio{
 }
 
 .form{
-    padding-top: 20%;
+    background-color:rosybrown;
+    /*padding: 5%;
+    padding-bottom: 5%;*/
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:600px) {
+    .col_25, .col_75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .img_topo{
+        margin-top: 33%;
+    }
+}
+
+@media screen and (min-width:601px) {
+
+    header{
+        flex-direction: row;
+    }
+
+    .itens_menu{
+        position: absolute;
+        left: 27%;
+        width: 70%;
+    }
+
+    li{
+        display: inline;
+        margin-left: 4%;
+    }
+
+    .logo{
+        width: 30%;
+        text-align: left;
+    }
 }
