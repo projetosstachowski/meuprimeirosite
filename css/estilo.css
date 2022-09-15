@@ -47,6 +47,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1000;
+    top: 0%;
 }
 
 .img_logo{
@@ -64,6 +65,10 @@ figure{
 .img_topo{
     padding-top: 7%;
     width: 100%;
+}
+
+.descer{
+    margin-top: 10%;
 }
 
 
@@ -88,9 +93,6 @@ footer{
 .center{
     text-align: center;
     color: blue;
-}
-
-.itens_menu{
 }
 
 .itens_menu li{
@@ -129,6 +131,7 @@ footer{
 table{
     width: 80%;
     border-collapse: collapse;
+    margin-bottom: 5%;
 }
 
 table, th, td {
@@ -141,7 +144,7 @@ table, th, td {
 th{
     font-size: 200%;
     color: #fff;
-    font-weight: bolder; 
+    font-weight: bolder;
 }
 
 td{
@@ -153,6 +156,14 @@ audio{
     width: 75%;
 }
 
+.audio{
+    margin-top: 10%;
+}
+
+.contato{
+    margin-top: 8%;
+}
+
 .form{
     background-color:rosybrown;
     /*padding: 5%;
@@ -160,6 +171,8 @@ audio{
     padding: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-family: 'PatrickHand-Regular', cursive;
+    color: rgb(63, 60, 60);
 }
 
 @media screen and (max-width:600px) {
@@ -174,6 +187,18 @@ audio{
 
     .img_topo{
         margin-top: 33%;
+    }
+
+    .descer{
+        margin-top: 48.5%;
+    }
+
+    .audio{
+        margin-top: 55%;
+    }
+
+    .contato{
+        margin-top: 50%;
     }
 }
 
